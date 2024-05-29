@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Playfair Display", serif;
+}
+
+.hero-section {
+  background-image: url(images/christian-buehner-DItYlc26zVI-unsplash.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: fit-content;
+  background-size: cover;
+}
+
+.header {
+  padding: 50px;
+  gap: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.text-wrapper {
+  width: 50%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 30px;
+
+}
+
+header h3 {
+  color: rgb(28, 24, 24);
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
+.text-container {
+  color: rgb(0, 0, 0);
+  max-width: 50%;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+.text-container h2 {
+  padding-top: 60px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+}
+
+.text-container p {
+  line-height: 1.5;
+  margin-bottom: 1rem !important;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Playfair Display", serif;
+
+}
+
+section.button {
+  padding-bottom: 30px;
+}
+
+.call-to-action a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #4483e8;
+  border-radius: 5px;
+  background: #4483e8;
+  color: white;
+  font-weight: 64px;
+  cursor: pointer;
+  padding: 15px 30px;
+}
+
+.call-to-action a:hover {
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.4);
+}
+
+.call-to-action2 a {
+  display: block;
+  text-decoration: rgb(32, 29, 29);
+  border: 2px solid white;
+  padding: 8px;
+  border-radius: 5px;
+  color: rgb(155, 56, 56);
+  font-weight: 64px;
+  background: transparent;
+  cursor: pointer;
+  padding: 15px 30px;
+}
+
+.call-to-action2:hover {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.black-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(32, 29, 29);
+  min-height: 400px;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.black-box {
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.container2 {
+  display: flex;
+}
+
+.image-contant img {
+  width: 80%;
+  height: 400px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.contant1 {
+  height: auto;
+  margin-left: -50px;
+}
+
+.contant1 h2 {
+  color: white;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 2rem;
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 20%;
+  margin-left: -50px;
+  padding-left: 40px;
+}
+
+.contant1 p {
+  margin: inherit;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 30px;
+  margin-top: -15px;
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
+  padding-left: 40px;
+}
+
+.grid-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+
+.practice-Main {
+  margin: 0;
+  padding: 0;
+}
+
+.service-box {
+  background-color: rgb(29, 23, 23);
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.heading h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0;
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
+.our-services {
+  margin: 30px;
+}
+
+.our-services h3 {
+  margin: 20px;
+}
+
+.our-services p {
+  box-sizing: border-box;
+  margin: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+.Security-Consultants {
+  min-height: 100vh;
+  background-color: rgb(32, 29, 29);
+  padding: 0;
+  margin: 0;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 200px;
+  margin-bottom: 1rem !important;
+}
+
+.image-contant h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 100px 0 0 100px;
+  color: white;
+}
+
+.image-contant img {
+  margin: 50px 0 0 100px
+}
+
+.contant11 {
+  margin: 50px 0 0 50px
+}
+
+.contant11 h2 {
+  margin-top: 30%;
+  color: white;
+  font-size: 1.75rem;
+}
+
+.contant11 p {
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.practice-Main {
+  background-color: rgb(32, 29, 29);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+heading h1 {
+  padding: 50px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+  margin: -20px;
+}
+
+.practice {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+  padding-bottom: 80px;
+  transition: .3s all ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.practice :hover {
+  background-color: #037ef3;
+  transition: .1s ease-in-out;
+}
+
+.practice2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px;
+  background-color: #0f0f11;
+  color: white;
+  min-height: 150px;
+  border-radius: 3px;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.number p {
+  margin-right: 10px;
+  opacity: .3;
+  color: #fff;
+}
+
+.practice1 p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.hero-actions button {
+  padding: 14px 20px;
+  background-color: #037ef3;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  white-space: nowrap;
+  width: 140px;
+  border: 0;
+}
+
+.hero-actions button:nth-child(2) {
+  background-color: green;
+}
+
+@media (max-width: 786px) {
+  .header {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .text-wrapper {
+    width: 100%;
+  }
+
+  .text-container {
+    max-width: 100%;
+    padding-top: 40px;
+  }
+
+  .text-container h2 {
+
+    font-size: 40px;
+    padding-top: 200px;
+    padding-left: 10px;
+
+  }
+
+  .text-container p {
+    padding-bottom: 40px;
+    padding-left: 10px;
+  }
+
+  .hero-actions {
+    padding-left: 10px;
+    flex-wrap: wrap;
+  }
+
+  .button {
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 20px;
+
+  }
+
+  .call-to-action a,
+  .call-to-action2 a {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+
+  .black-box {
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .image-contant img {
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .contant1 {
+    margin-left: 0;
+  }
+
+  .contant1 h2 {
+    font-size: 30px;
+    margin-top: 10%;
+    padding-left: 20px;
+    margin-left: 0;
+    padding-left: 20px;
+  }
+
+  .contant1 p {
+    padding-left: 20px;
+  }
+
+  .container-2 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .image-contant h2,
+  .image-contant img {
+    margin: 20px;
+  }
+
+  .contant11 {
+    margin: 20px;
+  }
+
+  .contant11 h2 {
+    margin-top: 10%;
+    font-size: 24px;
+  }
+
+  .practice {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    padding-bottom: 40px;
+  }
+
+  .practice2 {
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 10px;
+    min-height: auto;
+  }
+
+  .practice1 p {
+    font-size: 14px;
+  }
+
+} 
+
+
